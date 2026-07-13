@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+.claude/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Model checkpoints (large binaries, kept outside repo)
+*.pt
+*.pth
+*.ckpt
+
+# Training artifacts (auto-created by ddpm.py / ddpm_conditional.py)
+runs/
+models/
+results/
+
+# Sample outputs
+sample*.png
+sample*.jpg
